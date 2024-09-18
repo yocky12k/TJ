@@ -64,7 +64,7 @@ system('clear');
 }else{
 pclose(popen('cls', 'w'));
 }
-echo "========[ Script Tonjoy ]========\n";
+echo "========[ Script TonJoy ]========\n";
 $akunn = file_get_contents('akun.json');
 if($akunn == null){
 echo "	[*] Total Akun ( 0 )\n";
