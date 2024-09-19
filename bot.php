@@ -163,7 +163,7 @@ $json = json_decode($signin);
 if($json->code == "00000"){
 if($json->data->status == 1){
 $status = "Berhasil";
-$diamon = $json->data->status;
+$diamon = $json->data->diamonds;
 }else{
 $status = "Gagal";
 $diamon = 0;
